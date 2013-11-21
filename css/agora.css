@@ -1,0 +1,41 @@
+
+img {
+		position: absolute;
+		bottom: 5px;
+	}
+.comentario {  
+		position: absolute;
+		border-width: thin;
+		color: black;
+		border-style: solid;
+		height: 80px;
+		width: 200px;
+		padding: 5px;
+		font-family: calibri;
+		font-weight: bold;
+	}
+	
+.positivo { background: #CFC;}
+.negativo { background: #FCC;}
+
+.botones-comentario {
+	width: 28px;
+	height: 28px;
+}
+
+.boton-adherir {
+ 	right: 5px; 
+	background-image: url('../img/pulgarSi.png'); 
+	}
+
+.boton-disentir { 
+	right: 35px; 
+	background-image: url('../img/pulgarNo.png');
+	}
+
+#uno { left: 420px; top:5px;}
+#dos { left: 100px; top: 100px; }
+#tres { left: 420px; top:100px; }
+#cuatro { left: 640px; top:100px; }
+#cinco { left: 5px; top:200px; }
+#seis { left: 240px; top:200px; }
